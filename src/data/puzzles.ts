@@ -14,7 +14,7 @@ export const puzzles: Puzzle[] = [
     words: [
       "RUNNING",
       "MATCHA",
-      "THRIFTING",
+      "THRIFT",
       "ART",
       "READING",
       "DANCE",
