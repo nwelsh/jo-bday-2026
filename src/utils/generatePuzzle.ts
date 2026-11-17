@@ -15,7 +15,7 @@ const directions: Direction[] = [
   { row: -1, col: -1 }, // Diagonal up-left
 ];
 
-const SIZE = 12;
+const SIZE = 8;
 
 export function generatePuzzle(words: string[]) {
   const grid: string[][] = Array.from(
