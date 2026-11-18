@@ -40,7 +40,7 @@ export const puzzles: Puzzle[] = [
   {
     id: "partiful",
     title: "People on your Partiful",
-    subtitle: "These are people idk but they're on the partiful!",
+    subtitle: "These are the girlies on your bday partiful",
     words: [
       "ESSENCE",
       "JESSENIA",

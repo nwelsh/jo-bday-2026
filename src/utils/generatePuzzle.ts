@@ -5,14 +5,10 @@ type Direction = {
 };
 
 const directions: Direction[] = [
-  { row: 0, col: 1 },   // Right
-  { row: 0, col: -1 },  // Left
-  { row: 1, col: 0 },   // Down
-  { row: -1, col: 0 },  // Up
+   { row: 0, col: 1 },   // Left to right
+  { row: 1, col: 0 },   // Top to bottom
   { row: 1, col: 1 },   // Diagonal down-right
   { row: 1, col: -1 },  // Diagonal down-left
-  { row: -1, col: 1 },  // Diagonal up-right
-  { row: -1, col: -1 }, // Diagonal up-left
 ];
 
 const SIZE = 8;
