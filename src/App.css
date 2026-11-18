@@ -33,9 +33,18 @@
 
 .game-content {
   display: grid;
-  grid-template-columns: 1fr 220px;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  grid-template-areas: "puzzle words";
   gap: 32px;
   align-items: start;
+}
+
+.puzzle-section {
+  grid-area: puzzle;
+}
+
+.word-list-section {
+  grid-area: words;
 }
 
 .puzzle-section,
@@ -166,6 +175,9 @@
 
   .game-content {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "words"
+      "puzzle";
     gap: 18px;
   }
 
