@@ -163,6 +163,26 @@ function App() {
 
       {/* Active puzzle */}
       <section className="game-content">
+        {/* Word list */}
+        <aside className="word-list-section">
+          <h2>Words</h2>
+
+          <div className="word-list">
+            {words.map((word) => {
+              const found = foundWords.some((item) => item.word === word);
+
+              return (
+                <div
+                  key={word}
+                  className={`word-item ${found ? "completed" : ""}`}
+                >
+                  <span>○</span>
+                  {word}
+                </div>
+              );
+            })}
+          </div>
+        </aside>
         <div className="puzzle-section">
           <div className="puzzle-top">
             <div>
@@ -204,27 +224,6 @@ function App() {
             </div>
           </div>
         </div>
-
-        {/* Word list */}
-        <aside className="word-list-section">
-          <h2>Words</h2>
-
-          <div className="word-list">
-            {words.map((word) => {
-              const found = foundWords.some((item) => item.word === word);
-
-              return (
-                <div
-                  key={word}
-                  className={`word-item ${found ? "completed" : ""}`}
-                >
-                  <span>{found ? "✓" : "○"}</span>
-                  {word}
-                </div>
-              );
-            })}
-          </div>
-        </aside>
       </section>
 
       {/* Completion message */}
