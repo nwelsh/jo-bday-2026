@@ -230,13 +230,12 @@ function App() {
       {/* Completion message */}
       {isComplete && (
         <div className="success-message">
-          <h2>You found them all! 🎉</h2>
-          <p>You're a word search superstar!</p>
+          <h2>YOU WIN!</h2>
         </div>
       )}
 
       <button className="new-game-button" onClick={startNewGame}>
-        ↻ New {activePuzzle.title} Puzzle
+        NEW WORD SEARCH
       </button>
     </main>
   );

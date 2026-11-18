@@ -92,8 +92,8 @@
   border-radius: 7px;
   background: #f8eff6;
   color: #60465c;
-  font-size: clamp(10px, 2vw, 17px);
-  font-weight: 700;
+  font-size: clamp(20px, 2vw, 17px);
+  font-weight: 500;
   cursor: pointer;
   touch-action: none;
   user-select: none;
@@ -128,7 +128,7 @@
 }
 
 .word-item.completed {
-  color: #8eaa96;
+  color: #7e1d8d;
   text-decoration: line-through;
 }
 
@@ -151,7 +151,7 @@
 
 .success-message {
   text-align: center;
-  color: #73977c;
+  color: #3b0850;
   margin-top: 25px;
 }
 
@@ -196,8 +196,8 @@
 }
 
 .letter-cell.found {
-  background: #b7d9c4;
-  color: #365b43;
+  background: #810b83;
+  color: #fbf0ff;
 }
 
 .letter-cell.selected {
