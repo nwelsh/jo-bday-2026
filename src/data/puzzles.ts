@@ -82,4 +82,20 @@ export const puzzles: Puzzle[] = [
       "WARHOL",
     ],
   },
+  ,
+  {
+    id: "thanksgivingbBowling",
+    title: "Thanksgiving vs Bowling",
+    subtitle: "Is it Thanksgiving or Bowling?",
+    words: [
+      "TURKEY",
+      "STRIKE",
+      "PIE ",
+      "HAM",
+      "SPARE",
+      "SHOES",
+      "BALL",
+      "GUTTER",
+    ],
+  },
 ];
