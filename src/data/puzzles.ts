@@ -82,7 +82,6 @@ export const puzzles: Puzzle[] = [
       "WARHOL",
     ],
   },
-  ,
   {
     id: "thanksgivingbBowling",
     title: "Thanksgiving vs Bowling",
