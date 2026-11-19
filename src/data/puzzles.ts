@@ -89,7 +89,7 @@ export const puzzles: Puzzle[] = [
     words: [
       "TURKEY",
       "STRIKE",
-      "PIE ",
+      "PIE",
       "HAM",
       "SPARE",
       "SHOES",
